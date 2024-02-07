@@ -54,7 +54,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Let's get all the branches.
+          fetch-depth: 0 # Let's get all the branches. 
 
       # Verify the learner added actions/upload-artifact.
       - name: Verify workflow
